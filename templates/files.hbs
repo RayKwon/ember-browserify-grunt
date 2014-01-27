@@ -1,0 +1,21 @@
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span3">        
+      <table class="table">
+        {{#each file in model}}
+          <tr><td>
+            {{#link-to 'files.detail' file}}
+              {{file.title}} by {{file.author}}
+            {{/link-to}}
+            {{#link-to 'files.edit' file}}
+              <span class="btn">Edit</span>
+            {{/link-to}}              
+          </td></tr>
+        {{/each}}
+      </table>
+    </div>      
+    <div class="span9 well">
+      {{outlet}}
+    </div>
+  </div>
+</div>
