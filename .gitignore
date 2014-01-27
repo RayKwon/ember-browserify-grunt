@@ -1,14 +1,14 @@
-infra/config.js
 
 ### minified files ###
-public/js/app.min.js
-public/js/welcome.min.js
+js/main.min.js
+js/bundle.js
 
 ### auto generated css from less ###
 public/styles/*.css
 
 ### bower ###
 vendor
+bower_components
 
 ### node.js ###
 node_modules
