@@ -1,6 +1,6 @@
 ## Hope this project template guide you to using [Browserify](http://browserify.org/), [Grunt](gruntjs.com) and [Ember.js](emberjs.com) together
 
-### How to run GistCamp on your local machine
+### How to run?
 
 In CLI:
 
